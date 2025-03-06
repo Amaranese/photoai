@@ -4,7 +4,6 @@ import { v2 as cloudinary } from "cloudinary"
 import { actionClient } from "@/lib/safe-action"
 import { checkImageProcessing } from "@/lib/check-processing"
 
-
 cloudinary.config({
   cloud_name: "restyled",
   api_key: process.env.CLOUDINARY_KEY,
